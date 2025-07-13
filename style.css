@@ -1,0 +1,47 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F7E9CC;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #DFAAB2;
+}
+
+.semestres {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.semestre {
+  min-width: 250px;
+  background-color: #F5DADF;
+  padding: 15px;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+.semestre h2 {
+  color: #F8C7CA;
+  margin-bottom: 10px;
+}
+
+.materia {
+  background-color: white;
+  margin-bottom: 8px;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.materia.tachada {
+  text-decoration: line-through;
+  background-color: #e4e4e4;
+}
